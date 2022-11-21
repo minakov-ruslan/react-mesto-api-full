@@ -1,0 +1,12 @@
+.form {
+  max-width: calc(100% - 72px);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 634px) {
+  .form {
+    max-width: calc(100% - 44px);
+  }
+}

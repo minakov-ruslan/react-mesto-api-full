@@ -3,7 +3,7 @@ class Api {
     this._url = options.url;
     this._headers = options.headers;
   }
-  
+
   _checkResponse(res) {
     if (res.ok) {
       return res.json();
@@ -91,7 +91,7 @@ const api = new Api({
   url: 'https://api.mesto.minakov.nomoredomains.icu',
   headers: {
     'Content-Type': 'application/json'
- }
+  }
 });
 
 export default api;

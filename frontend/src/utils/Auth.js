@@ -1,5 +1,4 @@
 const baseUrl = 'https://api.mesto.minakov.nomoredomains.icu';
-
 const request = ({ url, method = 'POST', data }) => {
   return fetch(`${baseUrl}${url}`, {
     method,
